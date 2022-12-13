@@ -2,3 +2,9 @@
     width: 90%;
     margin-left: 5%;
 }
+.chartsh .c3-legend-item-tile, .c3-xgrid-focus, .c3-ygrid, .c3-event-rect, .c3-bars path{
+display: none;
+}
+.chartsh .c3-legend-item{
+    display: none;
+    }
