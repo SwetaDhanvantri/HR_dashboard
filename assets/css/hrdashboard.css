@@ -168,24 +168,63 @@ display: none;
         
     .bg-white{
         background: #fff;
-        border-radius: 5px; 
+        border-radius: 15px; 
         border: 1px solid rgba(0, 0, 0, 0.125);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
     .bg-white .card-header{
         background-color: rgba(0, 0, 0, 0.03);
         color: #000;
+        font-size: 18px;
         border-bottom: none;
     }
     table th{
         padding: 2px;
     }
     .card-header{
-        background-color: rgba(0, 0, 0, 0.03);
+        background-color: #fff;
         color: #000;
+        font-size: 18px;
         font-weight: 500;
         border-bottom: none;
     }
     .hr .card{
+        border-radius: 15px; 
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .rl_hr .card{
+       border-radius: 15px; 
+    }
+    .strip1{
+        padding: 3px 5px;
+        background-color: #5c31d6;;
+        margin: 5px 0;
+        color: #fff;
+    }
+    .strip1 p{
+       
+        margin-bottom: 0px;
+    }
+    .strip3{
+        padding: 3px 5px;
+        background-color: #fe5957;
+        color: #fff;
+        margin: 5px 0;
+    }
+    .strip2{
+        padding: 3px 5px;
+        background-color: #4fcb8d;;
+        color: #fff;
+        margin: 5px 0;
+    }
+    .strip2 p{
+       
+        margin-bottom: 0px;
+    }
+    .strip3 p{
+       
+        margin-bottom: 0px;
+    }
+    .Challan .card{
+        height: 270px;
     }
